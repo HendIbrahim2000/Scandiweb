@@ -1,0 +1,50 @@
+.DropdownMenu {
+    display: none;
+    position: absolute;
+    top: 73px;
+    background: #fff;
+    box-shadow: 0 0 3px rgb(0 0 0 / 30%);
+    padding: 5px 10px;
+    width: 100px;
+}
+
+.Currencies .DropdownMenu ul {
+    display: block;
+}
+.DropdownMenu li {
+    cursor: pointer;
+    padding: 3px;
+}
+
+.DropdownMenu li span {
+    color: #818181;
+    margin-left: auto;
+}
+
+.DropdownMenu li:hover, .DropdownMenu li:hover span {
+    color: #5ECE7B;
+}
+
+.DropdownMenu li:not(:last-child) {
+    border-bottom: 1px dashed #ddd;
+}
+
+.Currencies:hover .DropdownMenu {
+    display: initial;
+}
+
+.ArrowDown {
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.Currencies a:hover .ArrowDown {
+    border: solid #5ECE7B;
+    border-width: 0 1px 1px 0;
+}

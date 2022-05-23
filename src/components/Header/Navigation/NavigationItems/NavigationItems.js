@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { gql } from "@apollo/client";
-import client from '../../../graphql';
+import client from '../../../../graphql';
 
 import classes from './NavigationItems.module.css';
 import NavigationItem from './NavigationItem/NavigationItem';

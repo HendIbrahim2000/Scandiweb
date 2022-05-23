@@ -1,0 +1,85 @@
+.HeaderNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo {
+    height: 28px;
+}
+
+.HeaderNav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 100%;
+}
+
+.HeaderNav ul {
+    margin: 0;
+    display: flex;
+    height: 100%;
+    width: auto;
+    align-items: center;
+}
+
+.HeaderNav ul li {
+    margin: 0;
+    display: flex;
+    height: 100%;
+    width: auto;
+    align-items: center;
+    position: relative;
+}
+
+.HeaderNav ul a {
+    color: #1D1F22;
+    text-decoration: none;
+    padding: 28px 10px;
+    border-bottom: 1px solid transparent;
+    text-transform: uppercase;
+}
+
+
+
+
+
+.HeaderNav ul a:hover,
+.HeaderNav ul a:active,
+.HeaderNav ul a.active {
+    border-bottom: 1px solid #5ECE7B;
+    color: #5ECE7B;
+    
+}
+
+.CartCount {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 23px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #333;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+.HeaderNav ul li a:hover .CartCount {
+    background: #5ECE7B;
+}
+
+
+
+
+
+@media (min-width: 500px) {
+    .HeaderNav ul {
+        flex-flow: row;
+    }
+}
